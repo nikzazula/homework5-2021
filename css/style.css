@@ -113,10 +113,8 @@ header{
   grid-row-start: 1;
   grid-row-end: 2;
   background-image: url("images/header.jpg");
-  background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 
