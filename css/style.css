@@ -83,16 +83,21 @@ nav a:hover{
 
 /* Requirement 3b code here*/
 .skip a:focus{
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 /* Requirement 4 code here*/
-
+* :focus{
+  border: black solid 2px;
+}
 
 
 .container{
   /* Requirement 5 code here*/
-
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  row-gap: 15px;
 }
 
 /* Remainder of requirements here: */
@@ -103,28 +108,74 @@ header{
   background-size: cover; /* Parallax effect */
   color: white;
   height: 400px; /* Parallax effect */
-
   /* YOUR CODE HERE; */
+  width: 100%;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-image: url("images/header.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
-
-.about-image{
-  
-}
 
 .about{
- 
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
-.method-image{
- 
+.about-image{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  min-height: 700px;
+  overflow: hidden;
 }
 
 .method{
-  
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
+.method-image{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  min-height: 700px;
+  overflow: hidden;
+}
+
+.clients{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.clients-image{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  min-height: 700px;
+  overflow: hidden;
+}
+
+.contact{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.contact-image{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  min-height: 700px;
+  overflow: hidden;
+}
 /* You need to write some of your own selectors here */
 
 
@@ -135,54 +186,61 @@ header{
   padding: 30px;
 
   /* Your code here */
-
+  text-align: center;
 }
 
 @media screen and (min-width: 800px){
   nav{
     padding: 30px 0;
-
     /* Your code here */
   }
 
   .container{
-   
-  }
+   display: grid;
+   grid-template-columns: 50px auto 500px auto 50px;
+   grid-template-rows: 400px 400px 400px 400px 400px;
 
-  
-
-  .about-image{
-  
   }
 
   .about{
-    
+    grid-column-start: 3;
+    grid-column-end: 5;
   }
 
-  .method-image{
-    
+  .about-image{
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
 
   .method{
-   
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
 
-  .clients-image{
-    
+  .method-image{
+    grid-column-start: 3;
+    grid-column-end: 5;
   }
 
   .clients{
-    
+    grid-column-start: 3;
+    grid-column-end: 5;
   }
 
-  .contact-image{
-    
+  .clients-image{
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
 
   .contact{
-    
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
 
+  .contact-image{
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
 }
 
 
