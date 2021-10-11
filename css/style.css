@@ -64,7 +64,9 @@ nav a{
 }
 
   /* Requirement 2 code here*/
-
+nav a:hover{
+  text-decoration: underline;
+}
 
 
 .skip a{
@@ -76,7 +78,7 @@ nav a{
   z-index: 1;
 
   /* Requirement 3a code here*/
-  
+  margin-bottom: 40px;
 }
 
 /* Requirement 3b code here*/
