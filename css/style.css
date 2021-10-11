@@ -106,6 +106,7 @@ header{
   height: 400px; /* Parallax effect */
   /* YOUR CODE HERE; */
   width: 100%;
+  column-span: all;
   grid-row-start: 1;
   grid-row-end: 2;
   background-image: url("images/header.jpg");
