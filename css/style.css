@@ -108,7 +108,7 @@ header{
   width: 100%;
   column-span: all;
   grid-row-start: 1;
-  grid-row-end: 2;
+  -ms-grid-row-span: 1;
   background-image: url("images/header.jpg");
   background-repeat: no-repeat;
 
@@ -118,57 +118,61 @@ header{
 
 .about{
   grid-column-start: 2;
-  grid-column-end: 3;
+  column-span: 1;
   grid-row-start: 2;
-  grid-row-end: 3;
+  -ms-grid-row-span: 1;
 }
 
 .about-image{
+  column-span: all;
   grid-row-start: 1;
-  grid-row-end: 3;
-  min-height: 700px;
+  -ms-grid-row-span: 1;
+  max-height: 700px;
   overflow: hidden;
 }
 
 .method{
   grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  column-span: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-row-span: 1;
 }
 
 .method-image{
+  column-span: all;
   grid-row-start: 1;
-  grid-row-end: 3;
-  min-height: 700px;
+  -ms-grid-row-span: 1;
+  max-height: 700px;
   overflow: hidden;
 }
 
 .clients{
   grid-column-start: 2;
-  grid-column-end: 3;
+  column-span: 1;
   grid-row-start: 4;
-  grid-row-end: 5;
+  -ms-grid-row-span: 1;
 }
 
 .clients-image{
+  column-span: all;
   grid-row-start: 1;
-  grid-row-end: 3;
-  min-height: 700px;
+  -ms-grid-row-span: 1;
+  max-height: 700px;
   overflow: hidden;
 }
 
 .contact{
   grid-column-start: 2;
-  grid-column-end: 3;
+  column-span: 1;
   grid-row-start: 5;
-  grid-row-end: 6;
+  -ms-grid-row-span: 1;
 }
 
 .contact-image{
+  column-span: all;
   grid-row-start: 1;
-  grid-row-end: 3;
-  min-height: 700px;
+  -ms-grid-row-span: 1;
+  max-height: 700px;
   overflow: hidden;
 }
 /* You need to write some of your own selectors here */
