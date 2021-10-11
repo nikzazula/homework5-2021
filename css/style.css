@@ -82,7 +82,9 @@ nav a:hover{
 }
 
 /* Requirement 3b code here*/
-
+.skip a:focus{
+margin-bottom: 0px;
+}
 
 /* Requirement 4 code here*/
 
