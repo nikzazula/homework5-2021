@@ -108,75 +108,63 @@ header{
   height: 400px; /* Parallax effect */
   /* YOUR CODE HERE; */
   grid-column: 1/-1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
+  grid-row: 1/2;
   
 }
 
 .about{
   grid-column: 2/3;
-  grid-row-start: 2;
-  -ms-grid-row-span: 1;
+  grid-row: 2/3;
 }
 
 .about-image{
   grid-column: 1/-1;
-  grid-row-start: 2;
-  -ms-grid-row-span: 1;
+  grid-row: 2/3;
   max-height: 700px;
   overflow: hidden;
 }
 
 .method{
   grid-column: 2/3;
-  grid-row-start: 3;
-  -ms-grid-row-span: 1;
+  grid-row: 3/4;
 }
 
 .method-image{
   grid-column: 1/-1;
-  grid-row-start: 3;
-  -ms-grid-row-span: 1;
+  grid-row: 3/4;
   max-height: 700px;
   overflow: hidden;
 }
 
 .clients{
   grid-column: 2/3;
-  grid-row-start: 4;
-  -ms-grid-row-span: 1;
+  grid-row: 4/5;
 }
 
 .clients-image{
   grid-column: 1/-1;
-  grid-row-start: 4;
-  -ms-grid-row-span: 1;
+  grid-row: 4/5;
   max-height: 700px;
   overflow: hidden;
 }
 
 .contact{
   grid-column: 2/3;
-  grid-row-start: 5;
-  -ms-grid-row-span: 1;
+  grid-row: 5/-1;
 }
 
 .contact-image{
   grid-column: 1/-1;
-  grid-row-start: 5;
-  -ms-grid-row-span: 1;
+  grid-row: 5/-1;
   max-height: 700px;
   overflow: hidden;
 }
 /* You need to write some of your own selectors here */
 
-
-
 .text-block{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
-
   /* Your code here */
   text-align: center;
 }
@@ -185,6 +173,7 @@ header{
   nav{
     padding: 30px 0;
     /* Your code here */
+    text-align: right;
   }
 
   .container{
