@@ -125,7 +125,7 @@ header{
 
 .about-image{
   column-span: all;
-  grid-row-start: 1;
+  grid-row-start: 2;
   -ms-grid-row-span: 1;
   max-height: 700px;
   overflow: hidden;
@@ -140,7 +140,7 @@ header{
 
 .method-image{
   column-span: all;
-  grid-row-start: 1;
+  grid-row-start: 3;
   -ms-grid-row-span: 1;
   max-height: 700px;
   overflow: hidden;
@@ -155,7 +155,7 @@ header{
 
 .clients-image{
   column-span: all;
-  grid-row-start: 1;
+  grid-row-start: 4;
   -ms-grid-row-span: 1;
   max-height: 700px;
   overflow: hidden;
@@ -170,7 +170,7 @@ header{
 
 .contact-image{
   column-span: all;
-  grid-row-start: 1;
+  grid-row-start: 5;
   -ms-grid-row-span: 1;
   max-height: 700px;
   overflow: hidden;
