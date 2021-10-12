@@ -203,42 +203,42 @@ header{
 
   .about{
     grid-column-start: 3;
-    grid-column-end: 5;
+    column-span: 2;
   }
 
   .about-image{
     grid-column-start: 2;
-    grid-column-end: 4;
+    column-span: 2;
   }
 
   .method{
     grid-column-start: 2;
-    grid-column-end: 4;
+    column-span: 2;
   }
 
   .method-image{
     grid-column-start: 3;
-    grid-column-end: 5;
+    column-span: 2;
   }
 
   .clients{
     grid-column-start: 3;
-    grid-column-end: 5;
+    column-span: 2;
   }
 
   .clients-image{
     grid-column-start: 2;
-    grid-column-end: 4;
+    column-span: 2;
   }
 
   .contact{
     grid-column-start: 2;
-    grid-column-end: 4;
+    column-span: 2;
   }
 
   .contact-image{
     grid-column-start: 3;
-    grid-column-end: 5;
+    column-span: 2;
   }
 }
 
