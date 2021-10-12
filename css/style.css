@@ -99,21 +99,20 @@ nav a:hover{
 /* Remainder of requirements here: */
 
 header{
+  background-image: url("images/header.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   color: white;
   height: 400px; /* Parallax effect */
   /* YOUR CODE HERE; */
-  background-image: url("images/header.jpg");
-  background-repeat: no-repeat;
+  
   width: 100%;
   column-span: all;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
-  background-image: url("images/header.jpg");
-  background-repeat: no-repeat;
-
+  
 }
 
 
