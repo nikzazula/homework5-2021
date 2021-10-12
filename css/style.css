@@ -74,12 +74,13 @@ nav a:hover{
   transition: top 1s ease-out;
   z-index: 1;
   /* Requirement 3a code here*/
-  margin-bottom: 40px;
+  position: relative;
+  top: 40px;
 }
 
 /* Requirement 3b code here*/
 .skip a:focus{
-  margin-bottom: 0px;
+  top: 0px;
 }
 
 /* Requirement 4 code here*/
@@ -166,7 +167,7 @@ header{
   border: 10px solid black;
   padding: 30px;
   /* Your code here */
-  text-align: center;
+  align-self: center;
 }
 
 @media screen and (min-width: 800px){
