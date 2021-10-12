@@ -100,7 +100,6 @@ nav a:hover{
 
 header{
   background-image: url(../images/header.jpg);
-  column-span: all;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
@@ -108,7 +107,9 @@ header{
   color: white;
   height: 400px; /* Parallax effect */
   /* YOUR CODE HERE; */
-  
+  -webkit-column-span: all;
+  -moz-column-span: all;
+  column-span: all;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   
