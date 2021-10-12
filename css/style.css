@@ -134,7 +134,7 @@ header{
 .method{
   grid-column-start: 2;
   column-span: 1;
-  -ms-grid-row-span: 3;
+  grid-row-start: 3;
   -ms-grid-row-span: 1;
 }
 
