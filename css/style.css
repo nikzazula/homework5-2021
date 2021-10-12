@@ -110,7 +110,7 @@ header{
   grid-column-start: 1;
   -webkit-column-span: all;
   -moz-column-span: all;
-  column-span: 3;
+  column-span: 100%;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   
