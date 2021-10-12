@@ -107,7 +107,6 @@ header{
   color: white;
   height: 400px; /* Parallax effect */
   /* YOUR CODE HERE; */
-  grid-column-start: 1;
   -webkit-column-span: all;
   -moz-column-span: all;
   column-span: all;
