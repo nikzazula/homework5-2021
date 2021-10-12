@@ -108,7 +108,7 @@ header{
   height: 400px; /* Parallax effect */
   /* YOUR CODE HERE; */
   
-  width: 100%;
+  width: auto;
   column-span: all;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
