@@ -99,7 +99,7 @@ nav a:hover{
 /* Remainder of requirements here: */
 
 header{
-  background-image: url("images/header.jpg");
+  background-image: url('images/header.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
